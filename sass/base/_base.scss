@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $background-color;
+    font-family: $paragraphs-font, monospace;
+    color: $principal-color;
+    position: relative;
+    overflow-y: auto;
+}
+
+//styles for the scrollbar
+::-webkit-scrollbar {
+    background: transparent; 
+}
+::-webkit-scrollbar-thumb {
+    background: #505050;
+    border-radius: 100px;
+}

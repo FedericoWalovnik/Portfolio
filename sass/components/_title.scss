@@ -1,0 +1,18 @@
+.title {
+    display: block;
+    font-family: $titles-font, $paragraphs-font, monospace;
+    font-size: 9vw;
+    letter-spacing: 7px;
+  
+    &--border {
+      margin-top: -35px;
+      color: transparent;
+    }
+  
+    @supports (-webkit-text-stroke: 0.001px black) {
+      &--border {
+        -webkit-text-stroke: 0.01px $principal-color;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+  }

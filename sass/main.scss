@@ -1,0 +1,15 @@
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+
+@import 'base/typography';
+@import 'base/base';
+@import 'base/animations';
+@import 'base/utilites';
+
+@import 'layout/navbar';
+
+@import 'components/header';
+@import 'components/title';
+@import 'components/paragraph.scss';
+@import 'components/btn'

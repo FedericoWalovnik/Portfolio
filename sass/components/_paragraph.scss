@@ -1,0 +1,10 @@
+.paragraph {
+  font-size: 1.5vw;
+  word-spacing: 6px;
+  line-height: 32px;
+  margin-bottom: 6%;
+
+  &__line {
+    display: block;
+  }
+}
