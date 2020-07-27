@@ -1,37 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;700&family=Staatliches&display=swap" rel="stylesheet">
+    <script src="path/to/dist/feather.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;700&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
 
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
     <title>Portfolio | Federico Walovnik</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <nav class="navbar">
-            <ul>
-                <li class="navbar__item"><a href="img/heroPhoto.png" download>Download CV</a></li>
-                <li class="navbar__item"><a href="#">About Me</a></li>
-                <li class="navbar__item"><a href="#">My Work</a></li>
-                <li class="navbar__item"><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="header__textbox">            
-            <h1 class="title">
-                <span>FEDERICO</span>
-                <span class="title title--border">WALOVNIK</span>
-            </h1>
-            <p class="paragraph"> 
-                <span class="paragraph__line">Im a designer and software developer</span>
-                <span class="paragraph__line">passionated about building great user</span> 
-                <span class="paragraph__line">expiriences.</span>
-            </p>
-            <a href="#" class="btn btn--animated">Contact</a>
-        </div>
+      <nav class="navbar">
+        <ul>
+          <li class="navbar__item">
+            <a href="img/heroPhoto.png" download>Download CV</a>
+          </li>
+          <li class="navbar__item"><a href="#">About Me</a></li>
+          <li class="navbar__item"><a href="#">My Work</a></li>
+          <li class="navbar__item"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header__textbox">
+        <h1 class="title">
+          <span>FEDERICO</span>
+          <span class="title title--border u-margin-top-header">WALOVNIK</span>
+        </h1>
+        <p class="paragraph">
+          <span class="paragraph__line"
+            >Im a designer and software developer</span
+          >
+          <span class="paragraph__line"
+            >passionated about building great user</span
+          >
+          <span class="paragraph__line">expiriences.</span>
+        </p>
+        <a href="#" class="btn btn--animated">Contact</a>
+      </div>
     </header>
-
-</body>
+    <section class="section-about">
+      <div class="row">
+        <div class="col-3-of-5">
+          <p class="section-about__paragraph">
+            Im a student of graphic & multimedia design in UADE university.
+            Nowadays working in the IT field specially in Backend with Node.js
+            and Java. Im a student of graphic & multimedia design in UADE
+            university. Nowadays working in the IT field specially in Backend
+            with Node.js and Java.
+          </p>
+          <div class="row">
+            <div class="col-1-of-3">
+              <svg class="feather section-about__icon">
+                <use
+                  viewBox="0 0 60 55"
+                  xlink:href="path/to/dist/feather-sprite.svg#users"
+                />
+              </svg>
+            </div>
+            <div class="col-1-of-3">
+              <svg class="feather section-about__icon">
+                <use
+                  viewBox="0 0 60 55"
+                  xlink:href="path/to/dist/feather-sprite.svg#users"
+                />
+              </svg>
+            </div>
+            <div class="col-1-of-3">
+              <svg class="feather section-about__icon">
+                <use
+                  viewBox="0 0 60 55"
+                  xlink:href="path/to/dist/feather-sprite.svg#users"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="col-2-of-5">
+          <div class="title">
+            <h2 class="title--medium title--border">About me</h2>
+            <h2 class="title--medium u-margin-top-subheader">About me</h2>
+            <h2 class="title--medium title--border u-margin-top-subheader">
+              About me
+            </h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-mywork">
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="title">
+            <h2 class="title--medium title--border">My Work</h2>
+            <h2 class="title--medium u-margin-top-subheader">My Work</h2>
+            <h2 class="title--medium title--border u-margin-top-subheader">
+              My Work
+            </h2>
+          </div>
+        </div>
+        <div class="col-1-of-2">
+          <div class="col-1-of-3 section-mywork__project--1">
+            <img
+              class="section-mywork__img"
+              src="img/proyectMovies.png"
+              alt="Project movies image"
+            />
+            <h3 class="section-mywork__title u-margin-top-medium">
+              Movies collection app
+            </h3>
+            <p class="section-mywork__description u-margin-top-small">
+              The app was built with React.js using TMDb api, a huge collection
+              of movies and series.
+            </p>
+          </div>
+        </div>
+        <div class="col-1-of-2">
+          <div class="col-1-of-3 section-mywork__project--2">
+            <img
+              class="section-mywork__img"
+              src="img/proyectMovies.png"
+              alt="Project movies image"
+            />
+            <h3 class="section-mywork__title u-margin-top-medium">
+              Movies collection app
+            </h3>
+            <p class="section-mywork__description u-margin-top-small">
+              The app was built with React.js using TMDb api, a huge collection
+              of movies and series.
+            </p>
+          </div>
+        </div>
+        <div class="col-1-of-2">
+          <div class="col-1-of-3 section-mywork__project--3">
+            <img
+              class="section-mywork__img"
+              src="img/proyectMovies.png"
+              alt="Project movies image"
+            />
+            <h3 class="section-mywork__title u-margin-top-medium">
+              Movies collection app
+            </h3>
+            <p class="section-mywork__description u-margin-top-small">
+              The app was built with React.js using TMDb api, a huge collection
+              of movies and series.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-contact">
+      <div class="title section-contact__title u-margin-bottom-medium">
+        <h2 class="title--medium title--border">Contact</h2>
+        <h2 class="title--medium u-margin-top-subheader">Contact</h2>
+        <h2 class="title--medium title--border u-margin-top-subheader">
+          Contact
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-2-of-2">
+          <form class="section-contact__form" action="">
+            <input
+              class="section-contact__input"
+              type="text"
+              placeholder="Name"
+              required="true"
+            />
+            <input
+              class="section-contact__input"
+              type="email"
+              placeholder="Email"
+              required="true"
+            />
+            <textarea
+              class="section-contact__input section-contact__input--large"
+              type="text"
+              placeholder="How can i help?"
+              cols="70"
+              required="true"
+            ></textarea>
+            </textarea>
+            <button
+              class="  section-contact__btn"
+              type="submit"
+            >
+              Send email!
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>

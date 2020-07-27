@@ -1,2 +1,22 @@
 $paragraphs-font: 'Roboto Mono';
 $titles-font: 'Staatliches';
+
+.title {
+  display: block;
+  font-family: $titles-font, $paragraphs-font, monospace;
+  font-size: 12rem;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+
+  &--medium {
+    font-size: 11.3rem;
+    letter-spacing: 2px;
+  }
+
+  @supports (-webkit-text-stroke: 0.001px black) {
+    &--border {
+      -webkit-text-stroke: 0.01px $principal-color;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}

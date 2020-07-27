@@ -8,8 +8,10 @@
 @import 'base/utilites';
 
 @import 'layout/navbar';
+@import 'layout/grid';
 
 @import 'components/header';
-@import 'components/title';
 @import 'components/paragraph.scss';
-@import 'components/btn'
+@import 'components/btn';
+
+@import 'pages/home';

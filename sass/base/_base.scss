@@ -1,22 +1,27 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: $background-color;
-    font-family: $paragraphs-font, monospace;
-    color: $principal-color;
-    position: relative;
-    overflow-y: auto;
+html {
+  // This defines what 1rem is
+  font-size: 62.5%;
+}
+
+body {
+  background-color: $background-color;
+  font-family: $paragraphs-font, monospace;
+  color: $principal-color;
+  position: relative;
+  overflow-y: auto;
 }
 
 //styles for the scrollbar
 ::-webkit-scrollbar {
-    background: transparent; 
+  background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-    background: #505050;
-    border-radius: 100px;
+  background: #505050;
+  border-radius: 100px;
 }

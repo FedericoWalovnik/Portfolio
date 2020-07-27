@@ -2,7 +2,7 @@
   position: absolute;
   top: 6%;
   right: 4%;
-  font-size: 1.5vw;
+  font-size: 1.8rem;
 
   &__item {
     padding: 10px 3vh;
@@ -10,8 +10,8 @@
 
     & a:link,
     & a:visited {
-      color: $principal-color;
       text-decoration: none;
+      color: $principal-color;
     }
 
     &:hover {

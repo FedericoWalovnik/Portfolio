@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/FedericoWalovnik/Portfolio#readme",
   "dependencies": {
+    "feather-icons": "^4.28.0",
     "node-sass": "^4.14.1"
   }
 }
